@@ -37,7 +37,7 @@ To checkout out the history of log and accessing them, use this:
     2) Copy the version you are looking to see
     3) Run "git checkout VERSIONID" to see the changes. It will adjust the files but you wont change the actual files. This is where you can either branch out or do other things from the version selected
 
-    To go back to the most current version, checkout to the most recent version:
+To go back to the most current version, checkout to the most recent version:
     4) Run "git checkout main" or whichever the name it was assigned to
 
 To add a file in the branch, either use VS or do this in the Terminal
