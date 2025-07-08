@@ -42,4 +42,3 @@ To checkout out the history of log and accessing them, use this:
 
 To add a file in the branch, either use VS or do this in the Terminal
     "touch filename.filetype"
-
