@@ -22,23 +22,28 @@ If there is a long message, usually resolving error in the terminal, you have to
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 When adding a new feature or new change, utilize a new branch in the process. To do this, follow these steps:
-    1) Run "git checkout -b BRANCHNAME(NEW)". This is the shortned meathod that combines two parts
-        a) "git branch BRANCHNAME(NEW)"
-        b) "git checkout BRANCHNAME"
-    2) Do neccessary changes and follow above as written
 
-If you're in the process of merging this branch data to the primary branch/main branch, follow these steps
-    1) Make sure you are on the branch (usually main) that you would want to merge into using "git checkout BRANCHNAME(host)"
-    2) Run "git merge BRANCHNAME(target)" The new branch that is listed here will merge into the hosted branch listed from the step above
+1) Run "git checkout -b BRANCHNAME(NEW)". This is the shortned meathod that combines two parts
+    a) "git branch BRANCHNAME(NEW)"
+    b) "git checkout BRANCHNAME"
+2) Do neccessary changes and follow above as written
+
+If you're in the process of merging this branch data to the primary branch/main branch, follow these steps:
+
+1) Make sure you are on the branch (usually main) that you would want to merge into using "git checkout BRANCHNAME(host)"
+2) Run "git merge BRANCHNAME(target)" The new branch that is listed here will merge into the hosted branch listed from the step above
+
 If there is an error, resolve accordingly. If edits were made on the main branch while the offshoot branch was worked on, then you can decide to keep code either in VS or delete the error codes or lines of code that you didn't want.
 
 To checkout out the history of log and accessing them, use this:
-    1) Run "git log --oneline". The "--oneline" makes it easier to see the versions that we would need to see
-    2) Copy the version you are looking to see
-    3) Run "git checkout VERSIONID" to see the changes. It will adjust the files but you wont change the actual files. This is where you can either branch out or do other things from the version selected
+
+1) Run "git log --oneline". The "--oneline" makes it easier to see the versions that we would need to see
+2) Copy the version you are looking to see
+3) Run "git checkout VERSIONID" to see the changes. It will adjust the files but you wont change the actual files. This is where you can either branch out or do other things from the version selected
 
 To go back to the most current version, checkout to the most recent version:
-    4) Run "git checkout main" or whichever the name it was assigned to
+
+4) Run "git checkout main" or whichever the name it was assigned to
 
 To add a file in the branch, either use VS or do this in the Terminal
     "touch filename.filetype"
