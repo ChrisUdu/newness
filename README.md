@@ -47,3 +47,19 @@ To go back to the most current version, checkout to the most recent version:
 
 To add a file in the branch, either use VS or do this in the Terminal
     "touch filename.filetype"
+
+If you want to store a repository for you to use later, you can do the following:
+1) Run "git remote add NAMEPLACE(for link to repo) LINKTOREPO". What this will allow to do is to essentially call the name sake of the git remote add without having to reference the website every time you want to push data. Common practice for NAMEPLACE is "origin" for "main/master" branch
+To see what repositories we have access to (or can write to), check using this command:
+2) "git remote -v". This will allow us to see what can be fetched from and pushed to using the push and fetch commands respectively
+In doing so you can push the new data to github online by doing this instead of before:
+3) Run "git push NAMEPLACE BRANCHNAME" to update
+
+
+If multiple people work on it, THIS IS THE FIRST THING TO DO:
+1) Run "git pull NAMEPLACE BRANCHNAME". This will obtain any changes from other teammates and gets you to a solid base of the code you are working on.
+
+
+More Commands Here:
+
+"cd .." (literal charax to charax) goes up one level
