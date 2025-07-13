@@ -63,3 +63,5 @@ If multiple people work on it, THIS IS THE FIRST THING TO DO:
 More Commands Here:
 
 "cd .." (literal charax to charax) goes up one level
+
+"git rm FILENAME" for removal of specific files
